@@ -1,3 +1,6 @@
+video https://youtu.be/33_7FGwjrQs
+
+
 # MLFQ (Multilevel Feedback Queue) – Informe breve
 
 Este proyecto implementa un simulador MLFQ en C++ usando orientación a objetos. El planificador mantiene varias colas de distinta prioridad y, en cada “tick” de tiempo, siempre atiende la cola de mayor prioridad que tenga procesos listos. Las colas pueden usar distintas políticas: Round Robin (RR), Shortest Job First (SJF) o Shortest Time to Completion First (STCF).
@@ -70,7 +73,6 @@ Ejecutar (interactivo):
 Sigue los prompts para: esquema (1/2/3), archivo de entrada y archivo de salida.
 
 ## Notas
+Video https://youtu.be/33_7FGwjrQs
 
-- El campo `Pr` se reporta en la salida; por defecto no se usa para desempates dentro de la misma cola. Si se requiere, puede añadirse como criterio secundario (p. ej., en SJF/STCF cuando hay empates por `remainingTime`).
-- La simulación opera en ticks de 1 unidad de tiempo, lo cual facilita explicar y verificar el orden de ejecución y las métricas en el informe o el video.
 
